@@ -1,0 +1,50 @@
+.user-info{
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+.user-info h1{
+    margin-bottom: 10px;
+}
+
+.user-info input {
+    height: 25px;
+}
+
+.user-info button {
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.info-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.info-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-title span{
+    cursor: pointer;
+    align-self: center;
+    font-size: 3em;
+}
+
+
+.user-info.submitted{
+    height: fit-content;
+}
+
+.user-info.submitted label,
+.user-info.submitted input,
+.user-info.submitted .info-btn {
+  display: none;
+}

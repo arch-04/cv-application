@@ -1,0 +1,14 @@
+.page{
+    display: grid;
+    grid-template-columns: 450px 2fr;
+    width: 100%;
+    height: 100vh;
+    background-color: lightgrey;
+    overflow: auto;
+}
+
+.left-side {
+    margin-left: 15px;
+    margin-top:15px;
+}
+
