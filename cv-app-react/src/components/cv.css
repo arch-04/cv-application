@@ -1,0 +1,186 @@
+.cv-container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-right: 15px;
+    margin-top:15px;
+}
+
+.cv{
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: 1fr 8fr;
+    width: 1000px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.cv-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 5px solid gray;
+
+}
+
+.cv-info{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.contact-info{
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.contact-info h2{
+    text-decoration: underline;
+}
+
+.email{
+    display: flex;
+    gap: 10px;
+    padding-right: 25px;
+}
+
+.email p {
+    align-self: center;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+}
+
+.phone p {
+    align-self: center;
+}
+
+.education{
+    display: grid;
+}
+
+.education h2{
+    display: flex;
+    text-decoration: underline;
+}
+
+.school-name{
+    display: flex;
+    gap: 10px;
+}
+
+.school-name P {
+    align-self: center;
+}
+
+.degree-name {
+    display: flex;
+    gap: 10px;
+}
+
+.degree-name p {
+    align-self: center;
+}
+
+.date-format{
+    display: flex;
+    gap: 10px;
+}
+.start-education{
+    display: flex;
+    gap: 10px;
+}
+
+.start-education p {
+    align-self: center;
+}
+
+.end-education{
+    display: flex;
+    gap: 10px;
+}
+
+.end-education p{
+    align-self: center;
+}
+
+.info-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+
+
+.experience-container{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.experience h2{
+    text-decoration: underline;
+}
+
+.job-title{
+    display: flex;
+    gap: 10px;
+}
+
+.job-title p {
+    align-self: center;
+}
+
+.position-name{
+    display: flex;
+    gap: 10px;
+}
+
+.position-name p {
+    align-self: center;
+}
+
+.experience-date-container{
+    display: flex;
+    gap: 10px;
+}
+
+.start-job-date{
+    display: flex;
+}
+
+.start-job-date{
+    align-items: center;
+    gap: 10px;
+}
+
+.end-job-date{
+    display: flex;
+    gap: 10px;
+}
+
+.end-job-date p{
+    align-self: center;
+}
+
+.text-area-div{
+    width: 400px;
+}
+
+h1{
+    font-family: sans-serif
+}
+
+h2{
+    font-family: monospace;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 1.2em;
+}

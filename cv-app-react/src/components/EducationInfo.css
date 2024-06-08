@@ -1,0 +1,64 @@
+.education-info{
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.education-info h1{
+    margin-bottom: 10px;
+}
+
+.education-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-title span{
+    align-self: center;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+
+
+.education-info input{
+    height: 25px;
+}
+
+.education-info button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100px;
+}
+.education-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.education-box{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.education-box-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-box-btns button:nth-child(1){
+    margin-right: 10px;
+}
+
+.education-box-btns  button{
+    height: 30px;
+    width: 50px;
+}
+
